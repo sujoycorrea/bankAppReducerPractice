@@ -1,38 +1,184 @@
-.App {
-  text-align: center;
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* .noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+body {
+  background-color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.back-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5em;
+  /* height: 30px; */
+  width: 30px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.log-in-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+input {
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+}
+
+.btn {
+  height: 35px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+}
+
+.account-list {
+  /* height: 35px; */
+  width: 300px;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.gap {
+  margin-bottom: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.label {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.item {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.option {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.border-bottom {
+  padding-bottom: 20px;
+  border-bottom: 3px solid;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.the-radio-items {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.width {
+  width: 25px;
+}
+
+select {
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 5px;
 }
